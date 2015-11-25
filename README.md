@@ -12,6 +12,8 @@ Feb 29th of any year which is not a leap year
 Jan 0, 32, 33, ... - There is no 0 day, or any days 32 and beyond
 April 31 - The library respects the non-existence of a 31st day of any month
 
+The getDateFromString allows you to get an NSDate object from the date that the user has set via the date pickers. This allows for nearly universal adoption of the library as NSDate is the de-facto standard for representing moments in time in iOS.
+
 Here is a sample image of this library after hooking into WKInterfacePicker:
 
 http://a3.mzstatic.com/us/r30/Purple6/v4/19/7e/36/197e36ac-45e6-b085-2b3e-a34d7deff911/screen390x390.jpeg
