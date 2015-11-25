@@ -7,10 +7,10 @@ https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/
 
 This simple library will instantiate a date picker for you to hook into your WKInterfacePicker objects to mimic Apple's native DatePicker API. This code will: populate the months, days, and years from 1900 to 2100, inclusive. The year range can easily be changed by the developer by modifying these 2 values which live in the awakeWithContext method. There is also error handling, and will reject invalid dates such as:
 
-Feb 30 of any year - There is never a 30th of February
-Feb 29th of any year which is not a leap year
-Jan 0, 32, 33, ... - There is no 0 day, or any days 32 and beyond
-April 31 - The library respects the non-existence of a 31st day of any month
+Feb 30 of any year - There is never a 30th of February  
+Feb 29th of any year which is not a leap year  
+Jan 0, 32, 33, ... - There is no 0 day, or any days 32 and beyond  
+April 31 - The library respects the non-existence of a 31st day of any month  
 
 The getDateFromString allows you to get an NSDate object from the date that the user has set via the date pickers. This allows for nearly universal adoption of the library as NSDate is the de-facto standard for representing moments in time in iOS.
 
