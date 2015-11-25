@@ -1,6 +1,6 @@
 //
-//  DatePickerInterfaceController.swift
-//  Hourly Wage Payment of the Day
+//  DatePickerForAppleWatch.swift
+//  Date Picker For Apple Watch Library
 //
 //  Created by Liem Ta on 8/3/15.
 //  Copyright © 2015 Liem Ta. All rights reserved.
