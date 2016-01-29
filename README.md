@@ -3,7 +3,7 @@ Date Picker for Apple Watch
 
 Apple does not provide the UIKit framework for developers to use in their Apple Watch apps. A useful API that lives in Cocoa Touch's UIKit is the DatePicker API, as shown here:
 
-https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/Art/uidatepicker_intro_2x.png
+![ScreenShot](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/Art/uidatepicker_intro_2x.png)
 
 This simple library will instantiate a date picker for you to hook into your WKInterfacePicker objects to mimic Apple's native DatePicker API. This code will: populate the months, days, and years from 1900 to 2100, inclusive. The year range can easily be changed by the developer by modifying these 2 values which live in the awakeWithContext method. There is also error handling, and will reject invalid dates such as:
 
@@ -16,4 +16,5 @@ The getDateFromString allows you to get an NSDate object from the date that the 
 
 Here is a sample image of this library after hooking into WKInterfacePicker:
 
-http://a3.mzstatic.com/us/r30/Purple6/v4/19/7e/36/197e36ac-45e6-b085-2b3e-a34d7deff911/screen390x390.jpeg
+![ScreenShot](http://a3.mzstatic.com/us/r30/Purple6/v4/19/7e/36/197e36ac-45e6-b085-2b3e-a34d7deff911/screen390x390.jpeg)
+
